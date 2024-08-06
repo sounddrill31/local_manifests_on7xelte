@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="sounddrill31" fetch="https://github.com/sounddrill31" clone-depth="1" />
+    <remote name="DevOtag-Open-Source" fetch="https://github.com/DevOtag-Open-Source" clone-depth="1" />
+
+    <!-- Removals -->
+    <remove-project name="platform/prebuilts/vndk/v29" />
+
+    <!-- Repos -->
+    <project path="device/samsung/on7xelte" name="android_device_samsung_on7xelte_decommon" remote="sounddrill31" revision="ten" />
+    <project path="vendor/samsung/on7xelte" name="android_vendor_samsung_on7xelte" remote="DevOtag-Open-Source" revision="eleven" />
+    <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="DevOtag-Open-Source" revision="eleven" />
+    <project path="prebuilts/vndk/v29" name="platform_prebuilts_vndk_v29" remote="sounddrill31" revision="android-11.0.0_r46" />
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-18.1" />
+
+</manifest>
